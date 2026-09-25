@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f1eb;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #9f6512;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.kava-sekcia {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.kava-image {
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;}
